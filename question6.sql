@@ -1,3 +1,4 @@
 --Q6
-select exhibition_id, title, start_date, end_date, curator_id, (end_date - start_date) as min_duration
+select MC_EXHIBITION.exhibition_id, MC_EXHIBITION.title, MC_EXHIBITION.start_date, MC_EXHIBITION.end_date, MC_EXHIBITION.curator_id, (MC_EXHIBITION.end_date - MC_EXHIBITION.start_date) as min_duration
 from MC_EXHIBITION;
+
